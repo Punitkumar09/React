@@ -1,4 +1,4 @@
-
+import Chai from "./chai"
 
 
 
@@ -7,7 +7,12 @@ function App() {
  
 
   return (
-    <h1>Hello React With Vite | Punit</h1>
+    <>
+      <Chai/>  
+      <h1>hello world</h1>
+      <p>test para</p>
+    
+    </>
   )
 }
 
